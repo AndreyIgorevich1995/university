@@ -46,4 +46,12 @@ public class TestsNames2 {
     public void setTitles(List<List<String>> titles) {
         this.titles = titles;
     }
+
+    public TestsQuestion getTestsQuestion() {
+        return testsQuestion;
+    }
+
+    public void setTestsQuestion(TestsQuestion testsQuestion) {
+        this.testsQuestion = testsQuestion;
+    }
 }
